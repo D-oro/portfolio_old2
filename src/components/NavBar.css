@@ -1,0 +1,18 @@
+nav{
+    background-color: aqua;
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 0.5%;
+    font-size: x-large;
+}
+
+.navlink:hover{
+    background-color: lightblue;
+}
