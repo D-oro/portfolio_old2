@@ -4,12 +4,18 @@
   height: 90%;
   display: flex;
   flex-direction: column;
+  contain: content;
 }
 
 .accordion{
   border: solid;
   border-color: darkgrey;
   height: 4vh;
+}
+
+.expanded-accordion{
+  display: flex;
+  justify-content: row;
 }
 
 .arrow{

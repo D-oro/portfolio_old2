@@ -1,5 +1,6 @@
 .textsnippet{
     background-color: lavender;
+    width: fit-content;
     padding: 1%;
     font-size: medium;
     align-self: center;
