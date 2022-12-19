@@ -1,13 +1,10 @@
-import { Hyperlink } from "../components/Hyperlink";
+import { Accordion } from "../components/Accordion";
 
 export const This=()=>{
 
-    let hyperlink = "https://d-oro.github.io/portfolio"
-    let linktext = "portfolio website"
-
     return(
        <main>
-        <Hyperlink hyperlink={hyperlink} linktext={linktext}/>
+        <Accordion />
        </main>
     )
 };

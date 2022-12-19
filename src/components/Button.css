@@ -4,6 +4,7 @@
 }
 
 .button{
+    /* has an inline style for text color because of the mailto link */
     width: fit-content;
     height: fit-content;
     background-color: pink;
@@ -16,9 +17,14 @@
     font-size: large;
 }
 
+
 .button:hover{
     width: fit-content;
     height: fit-content;
     background-color: bisque;
     padding: 5px;
+}
+
+.button:visited{
+    color: inherit;
 }
