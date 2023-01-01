@@ -1,18 +1,23 @@
 nav{
-    background-color: aqua;
-    height: 5vw;
+    background-color: #B6C4CD;
+    height: 50px;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 4px solid #dae1e6;
+    letter-spacing: 1.5px;
 }
 
 .navlink{
+    color: #4c5365;
     text-decoration: none;
-    padding: 0.5%;
-    font-size: x-large;
+    font-size: large;
 }
 
 .navlink:hover{
-    background-color: lightblue;
+    text-decoration: none;
+    font-size: large;
+    color: cornflowerblue;
 }
+

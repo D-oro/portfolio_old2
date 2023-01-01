@@ -1,5 +1,5 @@
 .accordion-wrapper{
-  background-color: yellow;
+  background-color: #fef8ee;
   width: 80%;
   height: 90%;
   display: flex;
@@ -8,18 +8,34 @@
 }
 
 .accordion{
-  border: solid;
+  color: #505769;
+  background-color: #dae1e6;
+  border: none;
   border-color: darkgrey;
   height: 4vh;
+  font-size: large;
+  height: 50px;
+  letter-spacing: .5px;
+}
+
+.accordion:hover{
+  cursor: pointer;
+  color: cornflowerblue;
 }
 
 .expanded-accordion{
   display: flex;
-  justify-content: row;
+  letter-spacing: .5px;
+
 }
 
 .arrow{
+  background-color: #dae1e6;
   font-size: xx-large;
-  border: solid;
+  border: none;
   border-color: darkgrey;
+}
+
+.arrow:hover{
+  cursor: pointer;
 }

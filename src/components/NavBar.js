@@ -6,9 +6,9 @@ export const NavBar=()=>{
     return(
         <nav>
             <Link to="/" className="navlink">Home</Link>
-            <Link to="/this" className="navlink">This</Link>
-            <Link to="/that" className="navlink">That</Link>
-            <Link to="/other" className="navlink">Other</Link>
+            <Link to="/projects" className="navlink">Projects</Link>
+            <Link to="/skills" className="navlink">Skills</Link>
+            <Link to="/contact" className="navlink">Contact</Link>
         </nav>
     )
 };

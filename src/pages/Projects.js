@@ -1,6 +1,6 @@
 import { Accordion } from "../components/Accordion";
 
-export const This=()=>{
+export const Projects=()=>{
 
     return(
        <main>

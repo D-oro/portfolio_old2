@@ -1,0 +1,17 @@
+.box{
+    height: 220px;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.square{
+    background-color: #dae1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    letter-spacing: 1.5px;
+}

@@ -1,12 +1,7 @@
-
 .hyperlink{
+      /* has an inline style in Hyperlink.js for text color because of the mailto link */
   text-decoration: none;
   font-size: Large;
   padding: 1%;
   align-self: center;
-}
-
-
-.hyperlink:hover{
-  color: lightblue;
 }
