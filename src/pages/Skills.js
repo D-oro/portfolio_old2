@@ -22,6 +22,7 @@ export const Skills=()=>{
                     <h2>Main Languages and Software</h2>
                         <li>Python</li>
                         <li>JavaScript</li>
+                        <li>TypeScript</li>
                         <li>Java</li>
                         <li>React</li>
                         <li>HTML, CSS</li>
