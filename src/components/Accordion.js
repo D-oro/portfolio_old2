@@ -5,6 +5,7 @@ import adventure from '../pictures/adventure.png'
 import gamehub from '../pictures/gamehub.png'
 import gym from '../pictures/gym.png'
 import worldclock from '../pictures/worldclock.png'
+import nvc from '../pictures/nvc.png'
 import { Textsnippet } from './Textsnippet';
 import { Hyperlink } from './Hyperlink';
 
@@ -41,9 +42,25 @@ export const Accordion = () => {
         document.getElementById("5").hidden = true;
     }
 
+    const expandSix = () =>{
+        document.getElementById("6").hidden = false;
+    }
+    const collapseSix = () =>{
+        document.getElementById("6").hidden = true;
+    }
 
     return(
         <div className="accordion-wrapper">
+            <button className="accordion" onClick={expandSix}>Communication App</button>
+            <div id="6" hidden>
+                <div className="expanded-accordion">
+                <button onClick={collapseSix} className="arrow"> ⌃ </button>
+                <Image alt="screenshot of communication project" image={nvc} />
+                <Textsnippet text="Since completing training in Non-Violent Communication I've always wanted a digital tool to facilitate the practice, and now I have the coding skills to build it myself, so here's the start of my NVC app. I plan to continue working on this and adding more features, right now it can be used to identify needs and feelings, and has a short intro on what NVC is." />
+                <Hyperlink hyperlink="https://d-oro.github.io/communication/" linktext="→ NVC Webpage" />
+                </div>
+            </div>
+
             <button className="accordion" onClick={expandFive}>World Clock</button>
             <div id="5" hidden>
                 <div className="expanded-accordion">
