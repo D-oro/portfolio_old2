@@ -4,11 +4,13 @@ import './NavBar.css';
 export const NavBar=()=>{
 
     return(
-        <nav>
-            <Link to="/portfolio2.0" className="navlink">Home</Link>
-            <Link to="/projects" className="navlink">Projects</Link>
-            <Link to="/skills" className="navlink">Skills</Link>
-            <Link to="/contact" className="navlink">Contact</Link>
-        </nav>
+        <header>
+            <nav>
+                <Link to="/portfolio2.0" className="navlink">Home</Link>
+                <Link to="/projects" className="navlink">Projects</Link>
+                <Link to="/skills" className="navlink">Skills</Link>
+                <Link to="/contact" className="navlink">Contact</Link>
+            </nav>
+        </header>
     )
 };
