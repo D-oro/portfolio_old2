@@ -14,8 +14,8 @@
   border-color: darkgrey;
   height: 4vh;
   font-size: large;
-  height: 50px;
-  letter-spacing: .5px;
+  height: 3.125rem;
+  letter-spacing: 0.031rem;
 }
 
 .accordion:hover{
@@ -25,8 +25,7 @@
 
 .expanded-accordion{
   display: flex;
-  letter-spacing: .5px;
-
+  letter-spacing: 0.031rem;
 }
 
 .arrow{

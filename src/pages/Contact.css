@@ -1,6 +1,6 @@
 .box{
-    height: 220px;
-    width: 660px;
+    height: 13.75rem;
+    width: 41.25rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
-    letter-spacing: 1.5px;
+    height: 12.5rem;
+    width: 12.5rem;
+    letter-spacing: 0.031rem;
 }

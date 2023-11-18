@@ -11,6 +11,6 @@ h2{
 
 ul{
     line-height: 1.5;
-    letter-spacing: .5px;
-    font-size: 15px;
+    letter-spacing: 0.031rem;
+    font-size: 1rem;
 }

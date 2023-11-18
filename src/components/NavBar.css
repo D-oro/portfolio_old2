@@ -1,12 +1,12 @@
 nav{
     background-color: #B6C4CD;
-    height: 50px;
+    height: 3.125rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 4px solid #dae1e6;
-    letter-spacing: 1.5px;
+    border-bottom: 0.25rem solid #dae1e6;
+    letter-spacing: 0.1rem;
 }
 
 .navlink{
