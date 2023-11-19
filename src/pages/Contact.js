@@ -6,7 +6,7 @@ export const Contact=()=>{
 
     return(
        <main>
-            <Textsnippet text="Get in touch!" />
+            <h1>Contact</h1>
             <div className="box">
                 <div className="square">
                 <Hyperlink hyperlink= "https://www.linkedin.com/in/doro-hinrichs/" linktext= "LinkedIn" />

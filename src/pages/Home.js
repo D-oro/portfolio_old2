@@ -5,9 +5,9 @@ export const Home=()=>{
     return(
        <main>
             <div clasName="homewrapper">
-                <h1>Accessible Coding</h1>
-                <Textsnippet text="Hello and welcome! I'm a software developer passionate about accessible code!" />
-                <Textsnippet text="This will be updated at irregular intervals to share my excitement, knowledge and learning around accessibility." />
+                <h1>About</h1>
+                <p>Hello! I'm Doro, a software developer with a background in psychology and UX design, passionate about accessible code!</p>
+                <p>The funky font you see on my page is Open Dyslexic, a font specifically designed to remove barriers for dyslexic people. Here is a link to the <a href="https://opendyslexic.org/about">Open Dyslexic website</a> to learn more.</p>
             </div>
         </main>
     )

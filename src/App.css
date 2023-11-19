@@ -6,7 +6,11 @@
 main{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  padding: 10vh 5vw;
+}
+
+p {
+  font-size: 1.3rem;
 }
