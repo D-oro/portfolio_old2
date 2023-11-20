@@ -3,7 +3,8 @@ nav{
     height: 10vh;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 3rem;
     align-items: center;
     border-bottom: 0.25rem solid #dae1e6;
     position: fixed;
@@ -13,12 +14,30 @@ nav{
 .navlink{
     color: #4c5365;
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 0 1rem;
+
 }
 
 .navlink:hover{
-    text-decoration: none;
-    font-size: large;
+    /* text-decoration: none; */
+    /* font-size: large; */
     color: cornflowerblue;
+}
+
+.header-logo {
+    /* height: 7vh; */
+    width: 15vw;
+    max-height: 10vh;
+    object-fit: contain;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 2rem;
+    /* margin-left: 1rem; */
+    background-color:aliceblue;
 }
 
