@@ -1,15 +1,27 @@
-nav {
+header {
+    display: flex;
     background-color: var(--yellow-500);
+    border-bottom: 0.5rem solid var(--yellow-300);
     height: 4rem;
-    width: 100vw;
+}
+
+.header-logo {
+    object-fit: contain;
+    width: 5em;
+    border: none;
+
+}
+
+nav {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 1.5rem;
     align-items: center;
-    border-bottom: 0.5rem solid var(--yellow-300);
     letter-spacing: 0.05em;
     font-weight: bold;
     color: var(--grey-900);
+    padding-left: 5%;
 }
 
 .navlink {

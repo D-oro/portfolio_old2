@@ -1,7 +1,7 @@
 img{
-    height: 100px;
-    width: 140px;
+    height: 6.25rem;
+    width: 8.75rem;
     margin: 1%;
     align-self: center;
-    border: 1.5px solid lightgray;
+    border: 0.2rem solid var(--grey-200);
 }

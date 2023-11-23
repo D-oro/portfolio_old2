@@ -1,4 +1,3 @@
-import { Textsnippet } from "../components/Textsnippet";
 
 export const Home=()=>{
 

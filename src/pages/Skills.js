@@ -1,5 +1,4 @@
 import'./Skills.css'
-import { Textsnippet } from "../components/Textsnippet";
 
 export const Skills=()=>{
     return(

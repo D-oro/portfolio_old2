@@ -1,5 +1,4 @@
 import './Contact.css'
-import { Hyperlink } from '../components/Hyperlink';
 
 export const Contact=()=>{
 
@@ -9,15 +8,9 @@ export const Contact=()=>{
                 <h1>Contact</h1>
                 <p>Get in touch!</p>
                 <div className="box">
-                    <div className="square">
-                    <Hyperlink hyperlink= "https://www.linkedin.com/in/doro-hinrichs/" linktext= "LinkedIn" />
-                    </div>
-                    <div className="square">
-                    <Hyperlink hyperlink= "https://github.com/D-oro" linktext= "Github" />
-                    </div>
-                    <div className="square">
-                    <Hyperlink hyperlink="mailto:doro.codes@gmail.com" linktext= "Email" />
-                    </div>
+                    <a href="https://www.linkedin.com/in/doro-hinrichs/" className="square">LinkedIn</a>
+                    <a href="https://github.com/D-oro" className="square">Github</a>
+                    <a href="mailto:doro.codes@gmail.com" className="square">Email</a>
                 </div>
             </section>
        </main>
