@@ -97,8 +97,7 @@ export const Projects=()=>{
                     <a href="https://github.com/D-oro/gym">Gym Website Github Repo</a>
                 </span>
                 <img 
-                    alt="Screenshot of the Cat Cardio website with a turquoise background, 
-                    big purple buttons, and a picture of a cat lying under a dumbell." 
+                    alt="Screenshot of the Cat Cardio website with a cat lying under a dumbell." 
                     src={gym} 
                     />
             </article>
