@@ -1,9 +1,13 @@
+.contact-section {
+    width: 100%;
+}
+
 .box{
-    height: 220px;
-    width: 660px;
+    gap: 1.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .square{
@@ -12,9 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 7rem;
+    width:  7rem;
     letter-spacing: 1.5px;
+    font-weight: bold;
 }
 
 .square:hover{

@@ -1,12 +1,6 @@
 .skillsbox{
-    height: 100%;
-    width: 100%;
     display: flex;
-}
-
-h2{
-    font-weight: 500;
-    font-size: large;
+    flex-direction: column;
 }
 
 ul{

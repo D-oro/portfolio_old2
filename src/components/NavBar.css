@@ -1,8 +1,9 @@
-nav{
+nav {
     background-color: var(--yellow-500);
-    height: 50px;
+    height: 4rem;
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     border-bottom: 4px solid var(--yellow-300);
@@ -11,13 +12,13 @@ nav{
     color: var(--grey-900);
 }
 
-.navlink{
+.navlink {
     color: var(--grey-900);
     text-decoration: none;
     font-size: large;
 }
 
-.navlink:hover{
+.navlink:hover {
     text-decoration: none;
     font-size: large;
     color: var(--grey-500);
