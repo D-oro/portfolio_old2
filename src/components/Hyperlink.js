@@ -1,8 +1,8 @@
 import './Hyperlink.css'
 
-export const Hyperlink = ({hyperlink, linktext}) =>{
+export const Hyperlink = ({hyperlink, linktext, textcolor}) =>{
 
     return(
-        <a href={hyperlink} className="hyperlink" target="_blank" rel="noreferrer noopener" style={{color: "#4c5365"}}>{linktext}</a>
+        <a href={hyperlink} className="hyperlink" style={{color: textcolor}}>{linktext}</a>
     )
 }

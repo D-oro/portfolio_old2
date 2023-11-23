@@ -57,7 +57,7 @@ export const Accordion = () => {
                 <button onClick={collapseSix} className="arrow"> ⌃ </button>
                 <Image alt="screenshot of communication project" image={nvc} />
                 <Textsnippet text="Since completing training in Non-Violent Communication I've always wanted a digital tool to facilitate the practice, and now I have the coding skills to build it myself, so here's the start of my NVC app. I plan to continue working on this and adding more features, right now it can be used to identify needs and feelings, and has a short intro on what NVC is." />
-                <Hyperlink hyperlink="https://d-oro.github.io/communication/" linktext="→ NVC Webpage" />
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://d-oro.github.io/communication/" linktext="→ NVC Webpage" />
                 </div>
             </div>
 
@@ -67,7 +67,7 @@ export const Accordion = () => {
                 <button onClick={collapseFive} className="arrow"> ⌃ </button>
                 <Image alt="screenshot of worldclock project" image={worldclock} />
                 <Textsnippet text="For my first TypeScript/React project I built a world clock. Learned a lot about timezones and time formats in Javascript." />
-                <Hyperlink hyperlink="https://github.com/D-oro/Typescript_WorldClock" linktext="→ Github repo"/>
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://github.com/D-oro/Typescript_WorldClock" linktext="→ Github repo "/>
                 </div>
             </div>
 
@@ -77,7 +77,7 @@ export const Accordion = () => {
                 <button onClick={collapseFour} className="arrow"> ⌃ </button>
                 <Image alt="screenshot of malaphor page" image={malaphors} />
                 <Textsnippet text="Malaphors are fun! They combine two idioms to create a humorouos, absurd phrase. E.g. 'You can't judge a book by its cover and eat it too.' I built a malaphor creation tool which gives you a random selection of five out of a list of 254 idioms and a space to mash the two idioms together however you wish by clicking on the desired idioms and words." />
-                <Hyperlink hyperlink="https://d-oro.github.io/malaphor/" linktext="→ visit malaphor page"/>
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://d-oro.github.io/malaphor/" linktext="→ visit malaphor page"/>
                 </div>
             </div>
 
@@ -87,7 +87,7 @@ export const Accordion = () => {
                 <button onClick={collapseThree} className="arrow"> ⌃ </button>
                 <Image alt="screenshot of adventure game video" image={adventure} />
                 <Textsnippet text="For our capstone CodeClan Project, my group and I built an RPG inspired fullstack adventure Game. We used Java, Spring and PostgreSQL for our backend and React & JavaScript for our frontend." />
-                <Hyperlink hyperlink="https://youtu.be/9YJIx-vX5ig" linktext="→ watch play-through on Youtube"/>
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://youtu.be/9YJIx-vX5ig" linktext="→ watch play-through on Youtube"/>
                 </div>
             </div>
             
@@ -102,7 +102,7 @@ export const Accordion = () => {
                     flappy bird, and candy crush. We started out building a checkers game from
                     scratch, but towards the end decided to add further games that we developed
                     while figuring out how to make the checkers pieces move to the correct places." />
-                <Hyperlink hyperlink="https://github.com/GreigK/ReactCheckersTeam" linktext="→ GitHub Repo"/>
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://github.com/GreigK/ReactCheckersTeam" linktext="→ GitHub Repo"/>
                 </div>
             </div>
 
@@ -117,7 +117,7 @@ export const Accordion = () => {
                     as well as book specific members onto specific gym classes.
                     An additional feature allows the user to highlight certain classes as
                     peak time classes that only premium members can attend. " />
-                <Hyperlink hyperlink="https://github.com/D-oro/gym" linktext="→ GitHub Repo"/>
+                <Hyperlink textcolor="#1C2F3C" hyperlink="https://github.com/D-oro/gym" linktext="→ GitHub Repo"/>
                 </div>
             </div>
         </div>

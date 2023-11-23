@@ -7,11 +7,16 @@
 }
 
 .square{
-    background-color: #dae1e6;
+    background-color: var(--purple-500);
+    color: var(--grey-100);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
     width: 200px;
     letter-spacing: 1.5px;
+}
+
+.square:hover{
+    background-color: var(--purple-400);
 }

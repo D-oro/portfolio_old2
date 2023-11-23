@@ -1,5 +1,5 @@
 .accordion-wrapper{
-  background-color: #fef8ee;
+  background-color: var(--grey-100);
   width: 80%;
   height: 90%;
   display: flex;
@@ -8,10 +8,8 @@
 }
 
 .accordion{
-  color: #505769;
-  background-color: #dae1e6;
+  background-color: var(--grey-150);
   border: none;
-  border-color: darkgrey;
   height: 4vh;
   font-size: large;
   height: 50px;
@@ -20,7 +18,7 @@
 
 .accordion:hover{
   cursor: pointer;
-  color: cornflowerblue;
+  color: var(--grey-500);
 }
 
 .expanded-accordion{
@@ -30,7 +28,7 @@
 }
 
 .arrow{
-  background-color: #dae1e6;
+  background-color: var(--grey-100);
   font-size: xx-large;
   border: none;
   border-color: darkgrey;

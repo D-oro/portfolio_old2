@@ -1,7 +1,8 @@
 .hyperlink{
       /* has an inline style in Hyperlink.js for text color because of the mailto link */
   text-decoration: none;
-  font-size: Large;
+  font-size: 1rem;
   padding: 1%;
   align-self: center;
+  color: var(--purple-100);
 }
