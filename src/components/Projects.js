@@ -1,5 +1,4 @@
 import './Projects.css';
-import { Image } from "../components/Image";
 import malaphors from '../pictures/malaphors.png'
 import adventure from '../pictures/adventure.png'
 import gamehub from '../pictures/gamehub.png'
@@ -28,9 +27,9 @@ export const Projects=()=>{
                     </p>
                     <a href="https://d-oro.github.io/communication/">Go to my NVC Webpage</a>
                 </span>
-                <Image 
+                <img 
                     alt="Screenshot of the NVC website showing dozens of buttons with text" 
-                    image={nvc} 
+                    src={nvc} 
                 />
             </article>
             <article className="project-article">
@@ -44,9 +43,9 @@ export const Projects=()=>{
                     </p>
                     <a href="https://d-oro.github.io/malaphor/">Go to my Malaphor Generator</a>
                 </span>
-                <Image 
+                <img 
                     alt="Screenshot of the Malaphor Generator website with text sections in blue, red, yellow and green" 
-                    image={malaphors} 
+                    src={malaphors} 
                 />
             </article>
             <article className="project-article">
@@ -58,9 +57,9 @@ export const Projects=()=>{
                     </p>
                     <a href="https://youtu.be/9YJIx-vX5ig">Watch Adventure Game Presentation on Youtube</a>
                 </span>
-                <Image 
+                <img 
                     alt="Screenshot of the Adventure game, showing the player fighting a giant spider in a dungeon" 
-                    image={adventure} 
+                    src={adventure} 
                 />
             </article>
             <article className="project-article">
@@ -76,9 +75,9 @@ export const Projects=()=>{
                     </p>
                     <a href="https://github.com/GreigK/ReactCheckersTeam">Gamehub Website Github Repo</a>
                 </span>
-                <Image 
+                <img 
                     alt="Screenshot of the Gamehub website showing a checkers board." 
-                    image={gamehub} 
+                    src={gamehub} 
                 />
             </article>
             <article className="project-article">
@@ -97,10 +96,10 @@ export const Projects=()=>{
                     </p>
                     <a href="https://github.com/D-oro/gym">Gym Website Github Repo</a>
                 </span>
-                <Image 
+                <img 
                     alt="Screenshot of the Cat Cardio website with a turquoise background, 
                     big purple buttons, and a picture of a cat lying under a dumbell." 
-                    image={gym} 
+                    src={gym} 
                     />
             </article>
         </section>

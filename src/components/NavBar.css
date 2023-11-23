@@ -9,7 +9,6 @@ header {
     object-fit: contain;
     width: 5em;
     border: none;
-
 }
 
 nav {
@@ -35,4 +34,3 @@ nav {
     font-size: large;
     color: var(--purple-400);
 }
-

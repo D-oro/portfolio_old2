@@ -1,4 +1,9 @@
-img{
+.project-article {
+    display: flex;
+    padding: 1rem 0;
+}
+
+img {
     height: 6.25rem;
     width: 8.75rem;
     margin: 1%;

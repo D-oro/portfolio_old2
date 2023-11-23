@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.box{
+.links-container {
     gap: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@
     justify-content: flex-start;
 }
 
-.square{
+.square-link {
     background-color: var(--purple-500);
     color: var(--grey-100);
     display: flex;
@@ -22,6 +22,6 @@
     font-weight: bold;
 }
 
-.square:hover{
+.square-link:hover {
     background-color: var(--purple-400);
 }
