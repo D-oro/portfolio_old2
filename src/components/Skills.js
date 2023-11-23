@@ -15,6 +15,7 @@ export const Skills=()=>{
                             <li>Screen reader testing with: NVDA, Narrator & VoiceOver</li>
                             <li>Accessibility Tree view</li>
                             <li>Colour contrast evaluation</li>
+                            <li>Code inspections for invisible issues</li>
                         </ul>
                     </article>
                     <article>
