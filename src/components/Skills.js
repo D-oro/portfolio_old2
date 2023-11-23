@@ -6,6 +6,18 @@ export const Skills=()=>{
             <section className="skillsbox">
                 <h1>Skill Set</h1>
                     <article>
+                        <h2>Accessibility Testing</h2>
+                        <ul>
+                            <li>Eslint a11y</li>
+                            <li>WAVE Evaluation Tool</li>
+                            <li>axe Dev Tools</li>
+                            <li>ARC Toolkit</li>
+                            <li>Screen reader testing with: NVDA, Narrator & VoiceOver</li>
+                            <li>Accessibility Tree view</li>
+                            <li>Colour contrast evaluation</li>
+                        </ul>
+                    </article>
+                    <article>
                         <h2>Main Languages</h2>
                         <ul>
                             <li>TypeScript</li>
