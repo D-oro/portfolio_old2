@@ -1,3 +1,17 @@
+.accordion{
+  background-color: var(--purple-500);
+  color: var(--background-white);
+  border: none;
+  height: 4vh;
+  font-size: large;
+  height: 3.125rem;
+}
+
+.accordion:hover{
+  cursor: pointer;
+  color: var(--yellow-500);
+}
+
 .accordion-wrapper{
   background-color: var(--grey-100);
   width: 80%;
@@ -7,24 +21,8 @@
   contain: content;
 }
 
-.accordion{
-  background-color: var(--grey-150);
-  border: none;
-  height: 4vh;
-  font-size: large;
-  height: 50px;
-  letter-spacing: .5px;
-}
-
-.accordion:hover{
-  cursor: pointer;
-  color: var(--grey-500);
-}
-
 .expanded-accordion{
   display: flex;
-  letter-spacing: .5px;
-
 }
 
 .arrow{
@@ -36,4 +34,5 @@
 
 .arrow:hover{
   cursor: pointer;
+  color: var(--purple-300);
 }

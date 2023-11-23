@@ -6,8 +6,8 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 4px solid var(--yellow-300);
-    letter-spacing: 1.5px;
+    border-bottom: 0.5rem solid var(--yellow-300);
+    letter-spacing: 0.05em;
     font-weight: bold;
     color: var(--grey-900);
 }
@@ -21,6 +21,6 @@ nav {
 .navlink:hover {
     text-decoration: none;
     font-size: large;
-    color: var(--grey-500);
+    color: var(--purple-400);
 }
 
