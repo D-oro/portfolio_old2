@@ -2,7 +2,7 @@
 export const Home=()=>{
 
     return(
-        <main>
+        <main id="main">
              <section>
                  <h1>About</h1>
                  <p>Hello! I'm Doro, a software developer and accessibility 

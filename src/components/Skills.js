@@ -2,7 +2,7 @@ import'./Skills.css'
 
 export const Skills=()=>{
     return(
-        <main>
+        <main id="main">
             <section className="skillsbox">
                 <h1>Skill Set</h1>
                 <p>I'm experienced in UX/UI user-centred design, quantitative and 

@@ -34,3 +34,27 @@ nav {
     font-size: large;
     color: var(--purple-400);
 }
+
+.skip-to-main-content-link {
+    background-color: var(--green-400) !important;
+    border: solid var(--grey-900) 0.1rem !important;
+    color: var(--grey-900) !important;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    top: 0.5em;
+    width: 10em;
+    opacity: 1;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.skip-to-main-content-link:not(:focus):not(:hover) {
+    transform: translateY(-4em);
+    opacity: 0;
+}

@@ -6,6 +6,7 @@ export const NavBar=()=>{
 
     return(
         <header>
+            <a href="#main" className="skip-to-main-content-link">Skip to main content</a>
             <img src={doroLogo} alt="Doro logo" className="header-logo"/>
             <nav>
                 <Link to="/portfolio2.0" className="navlink">About</Link>

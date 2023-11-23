@@ -8,7 +8,7 @@ import nvc from '../pictures/nvc.png'
 export const Projects=()=>{
 
     return(
-       <main>
+       <main id="main">
         <section>
             <h1>Projects</h1>
             <p>
