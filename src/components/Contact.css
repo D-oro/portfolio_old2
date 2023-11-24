@@ -1,0 +1,27 @@
+.contact-section {
+    width: 100%;
+}
+
+.links-container {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.square-link {
+    background-color: var(--purple-500);
+    color: var(--grey-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width:  7rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.square-link:hover {
+    background-color: var(--purple-400);
+}

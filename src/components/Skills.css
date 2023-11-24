@@ -1,0 +1,10 @@
+.skillsbox {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-size: 0.9rem;
+}

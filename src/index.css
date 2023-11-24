@@ -12,7 +12,82 @@ code {
     monospace;
 }
 
-html{
-  background-color: #fffcf7;
-  color: #4c5365
+html {
+  background-color: var(--background-white);
+  color: var(--grey-900);
+}
+
+:root {
+  /* main brand */
+--yellow-900: #4D3914;
+--yellow-800: #805E21;
+--yellow-700: #B3842E;
+--yellow-600: #E6AA3C;
+--yellow-500: #FFBE42;
+--yellow-400: #FFCA68;
+--yellow-300: #FFD78E;
+--yellow-200: #FFDEA1;
+--yellow-100: #FFEBC6;
+
+/* second brand */
+--purple-500: #680166;
+--purple-450: #780D76;
+--purple-400: #871C85;
+--purple-350: #962E94;
+--purple-300: #A543A3;
+--purple-250: #C376C2;
+--purple-200: #D294D1;
+--purple-150: #E1B4E0;
+--purple-100: #F0D8F0;
+
+/* neutral */
+--grey-900: #1C2F3C;
+--grey-850: #2A465A;
+--grey-800: #315269;
+--grey-700: #395E78;
+--grey-600: #406A87;
+--grey-500: #477597;
+--grey-450: #5481A1;
+--grey-400: #638DAB;
+--grey-350: #729AB6;
+--grey-300: #83A7C0;
+--grey-250: #95B4CB;
+--grey-200: #A8C2D5;
+--grey-150: #D1E0EA;
+--grey-100: #E8EFF5;
+
+/* success */
+--green-900: #1A5D60;
+--green-800: #1F7073;
+--green-700: #248386;
+--green-600: #299599;
+--green-550: #2EA8AC;
+--green-500: #34babf;
+--green-450: #55C8CC;
+--green-400: #67CFD2;
+--green-350: #7AD6D9;
+--green-200: #8EDCDF;
+--green-250: #A2E3E6;
+--green-200: #B8EAEC;
+--green-150: #CFF1F2;
+--green-100: #E6F8F9;
+
+/* warning */
+--orange-900: #7C3404;
+--orange-800: #913C04;
+--orange-700: #A54505;
+--orange-600: #BA4E06;
+--orange-500: #cf5707;
+--orange-450: #D3651B;
+--orange-400: #D87430;
+--orange-350: #DD8347;
+--orange-300: #E2935E;
+--orange-250: #E7A477;
+--orange-200: #ECB590;
+--orange-150: #F0C6AA;
+--orange-100: #F5D9C6;
+--orange-050: #FAECE2;
+
+/* off-white background */
+--background-white: #FFFDF9;
 }

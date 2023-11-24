@@ -1,23 +1,60 @@
-nav{
-    background-color: #B6C4CD;
-    height: 50px;
-    width: 100vw;
+header {
     display: flex;
-    justify-content: space-around;
+    background-color: var(--yellow-500);
+    border-bottom: 0.5rem solid var(--yellow-300);
+    height: 4rem;
+}
+
+.header-logo {
+    object-fit: contain;
+    width: 5em;
+    border: none;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     align-items: center;
-    border-bottom: 4px solid #dae1e6;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    color: var(--grey-900);
+    padding-left: 5%;
 }
 
-.navlink{
-    color: #4c5365;
+.navlink {
+    color: var(--grey-900);
     text-decoration: none;
     font-size: large;
 }
 
-.navlink:hover{
+.navlink:hover {
     text-decoration: none;
     font-size: large;
-    color: cornflowerblue;
+    color: var(--purple-400);
 }
 
+.skip-to-main-content-link {
+    background-color: var(--green-400) !important;
+    border: solid var(--grey-900) 0.1rem !important;
+    color: var(--grey-900) !important;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    top: 0.5em;
+    width: 10em;
+    opacity: 1;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.skip-to-main-content-link:not(:focus):not(:hover) {
+    transform: translateY(-4em);
+    opacity: 0;
+}
